@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.hero-btn,
+.hero-btn:hover {
+    border: 2px black solid;
+    border-radius: 14px;
+    color: black;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    text-decoration: none;
+}
+
+.logo {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px !important;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-text {
+    font-size: 20px;
+    color: grey;
+}
+
+.intro {
+    background-color: #222222;
+    height: 70vh;
+}
+
+.intro a,
+.contact a {
+    border: 2px solid wheat;
+}
+
+.contacta {
+    border-radius: 14px;
+}
+
+.contact {
+    background-color: #222222;
+    border-radius: 18px;
+}
+
+footer {
+    background-color: #222222;
+}
+
+footer i {
+    font-size: 25px;
+}
+
+footer .icons {
+    border: 1px solid wheat;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
